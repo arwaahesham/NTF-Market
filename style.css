@@ -293,60 +293,53 @@ main{
     font-size: 40px;
     margin-bottom: 30px;
 }
-.categories {
-      /* display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 20px; */
-    }
 .browse-first , .browse-second{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
 }
-    .category-card {
-      border-radius: 16px;
-      overflow: hidden;
-      background: #444;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      height: 250px;
-      width: 220px;
-      cursor: pointer;
-      transition: all 0.3s;
-    }
-    .category-card:hover {
-        transform: scale(0.9);
-    }
-
-    .card-bg {
-      flex: 1;
-    }
+.category-card {
+    border-radius: 16px;
+    overflow: hidden;
+    background: #444;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 250px;
+    width: 220px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.category-card:hover {
+    transform: scale(0.9);
+}
+.card-bg {
+    flex: 1;
+}
 .card-bg i {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 30%;
-      font-size: 70px;
-      background-color: var(--bg-art);
-    }
-    .card-footer {
-      background: #444;
-      padding: 17px;
-      font-weight: 600;
-      font-size: 20px;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+    font-size: 70px;
+    background-color: var(--bg-art);
+}
+.card-footer {
+    background: #444;
+    padding: 17px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.bg-art { background: linear-gradient(135deg, #6a11cb, #2575fc); }
+.bg-collectibles { background: linear-gradient(135deg, #ee7752, #e73c7e); }
+.bg-music { background: linear-gradient(135deg, #ff512f, #dd2476); }
+.bg-photography { background: linear-gradient(135deg, #fbc2eb, #a6c1ee); }
+.bg-video { background: linear-gradient(135deg, #43cea2, #185a9d); }
+.bg-utility { background: linear-gradient(135deg, #f7971e, #ffd200); }
+.bg-sport { background: linear-gradient(135deg, #f83600, #f9d423); }
+.bg-virtual { background: linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b); }
 
-    /* ألوان مختلفة للكروت */
-    .bg-art { background: linear-gradient(135deg, #6a11cb, #2575fc); }
-    .bg-collectibles { background: linear-gradient(135deg, #ee7752, #e73c7e); }
-    .bg-music { background: linear-gradient(135deg, #ff512f, #dd2476); }
-    .bg-photography { background: linear-gradient(135deg, #fbc2eb, #a6c1ee); }
-    .bg-video { background: linear-gradient(135deg, #43cea2, #185a9d); }
-    .bg-utility { background: linear-gradient(135deg, #f7971e, #ffd200); }
-    .bg-sport { background: linear-gradient(135deg, #f83600, #f9d423); }
-    .bg-virtual { background: linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b); }
 
 
 
