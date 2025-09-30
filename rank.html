@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rankings</title>
+    <!-- Normalize -->
+  <link rel="stylesheet" href="css/normalize.css" />
+
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="css/rank-styles.css" />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&family=Space+Mono&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+    <!-- Start Nav -->
+  <nav>
+    <div class="container">
+      <div class="con-logo">
+        <a href="index.html">
+          <i class="fa-solid fa-store logo-nav"></i>
+          <span>NFT Marketplace</span>
+        </a>
+      </div>
+      <div class="nav-right">
+        <div class="links">
+          <!-- Sidebar -->
+          <ul class="sidebar">
+            <li class="close-button" onclick="hideSidebar()" id="closeBtn">
+              <a href="#" class="no-effect">
+                <i class="fas fa-xmark icon-close"></i>
+              </a>
+            </li>
+            <li><a href="" class="line">Marketplace</a></li>
+            <li><a href="rank.html" class="line">Rankings</a></li>
+            <li><a href="" class="line">Connect a wallet</a></li>
+            <li><a href="" class="line">Sign Up</a></li>
+          </ul>
+
+          <!-- Desktop Links -->
+          <ul>
+            <li class="hideOnMobile"><a href="">Marketplace</a></li>
+            <li class="hideOnMobile"><a href="">Rankings</a></li>
+            <li class="hideOnMobile"><a href="">Connect a wallet</a></li>
+            <li class="menu-button" onclick="showSidebar()" id="menuBtn">
+              <a href="#" class="no-effect">
+                <i class="fa-solid fa-bars-staggered icon-menu"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Signup Button -->
+        <div class="btn hideOnMobile">
+          <button class="btn-signup">
+            <i class="fa-regular fa-user"></i>
+            <span>Sign Up</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end nav -->
+   <!-- start content -->
+    <section class="content-infor">
+       <div class="container">
+        <div class="top">
+            <h1>
+                Top Creators
+            </h1>
+            <p>
+                Check out top ranking NFT artists on the NFT Marketplace.
+            </p>
+        </div>
+        <div class="frame">
+            <ul>
+                <li>
+                    <a href="" class="bl">Today</a>
+                    <a href="" class="hid">1d</a>
+                </li>
+                <li>
+                    <a href="" class="bl">This Week</a>
+                    <a href="" class="hid">7d</a>
+                </li>
+                <li> 
+                    <a href="" class="bl">This Month</a>
+                    <a href="" class="hid">30d</a>
+                </li>
+                <li>
+                    <a href="" >All Time</a>
+                </li>
+            </ul>
+        </div>
+        <div class="rank">
+            <div class="hed-inf">
+                <div class="right-inf flex-rank">
+                  <p>#</p>
+                  <p>Artist</p>
+                </div>
+                <div class="left-inf flex-rank">
+                  <p  class="hid-rank">
+                    Change
+                  </p>
+                  <p>
+                    Volume
+                  </p>
+                </div>
+            </div>
+            <div class="data">
+              <a href="#">
+                <div class="data-content">
+                    <div class="right-data">
+                        <div class="num">
+                            <h3>
+                              1  
+                            </h3>
+                        </div>
+                        <div class="pers">
+                            <img src="/img/rank-1.png" alt="Personal photo">
+                            <h2>
+                                Marcus Saris
+                            </h2>
+                        </div>
+                    </div>
+             
+                    <div class="left-data">
+                        <p class="gr hid-rank"> 
+                            +1.41%
+                        </p>
+                        <p>
+                            12.4 ETH
+                        </p>
+                    </div>
+                </div>
+            </a>
+                <a href="">
+                    <div class="data-content">
+                        <div class="right-data">
+                            <div class="num">
+                                <h3>
+                                   2
+                                </h3>
+                            </div>
+                            <div class="pers">
+                                <img src="/img/rank-2.png" alt="Personal photo">
+                                <h2>
+                                    Alfonso Bator
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="left-data">
+                            <p class="gr hid-rank"> 
+                                +1.41%
+                            </p>
+                            <p>
+                                12.4 ETH
+                            </p>
+                        </div>
+                    </div>
+                </a>
+              <a href="">
+                <div class="data-content">
+                    <div class="right-data">
+                        <div class="num">
+                            <h3>
+                              3
+                            </h3>
+                        </div>
+                        <div class="pers">
+                            <img src="/img/rank-3.png" alt="Personal photo">
+                            <h2>
+                                Nolan Mango
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="left-data">
+                        <p class="gr hid-rank"> 
+                            +1.41%
+                        </p>
+                        <p>
+                            12.4 ETH
+                        </p>
+                    </div>
+                </div>
+              </a>
+               <a href="">
+                <div class="data-content">
+                    <div class="right-data">
+                        <div class="num">
+                            <h3>
+                              4
+                            </h3>
+                        </div>
+                        <div class="pers">
+                            <img src="/img/rank-4.png" alt="Personal photo">
+                            <h2>
+                                Nolan Mango
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="left-data">
+                        <p class="gr hid-rank"> 
+                            +1.41%
+                        </p>
+                        <p>
+                            12.4 ETH
+                        </p>
+                    </div>
+                </div>
+               </a>
+              <a href="">
+                <div class="data-content">
+                    <div class="right-data">
+                        <div class="num">
+                            <h3>
+                             5
+                            </h3>
+                        </div>
+                        <div class="pers">
+                            <img src="/img/rank-5.png" alt="Personal photo">
+                            <h2>
+                                Miracle Gouse
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="left-data">
+                       <p class="gr hid-rank"> 
+                            +1.41%
+                        </p>
+                        <p>
+                            12.4 ETH
+                        </p>
+                    </div>
+                </div>
+              </a>
+               <a href="">
+                <div class="data-content">
+                    <div class="right-data">
+                        <div class="num">
+                            <h3>
+                              6
+                            </h3>
+                        </div>
+                        <div class="pers">
+                            <img src="/img/rank-6.png" alt="Personal photo">
+                            <h2>
+                                Alena Septimus
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="left-data">
+                       <p class="gr hid-rank"> 
+                            +1.41%
+                        </p>
+                        <p>
+                            12.4 ETH
+                        </p>
+                    </div>
+                </div>
+               </a>
+               <a href="">
+                <div class="data-content">
+                    <div class="right-data">
+                        <div class="num">
+                            <h3>
+                              7
+                            </h3>
+                        </div>
+                        <div class="pers">
+                            <img src="/img/rank--7.png" alt="Personal photo">
+                            <h2>
+                                Desirae Lipshutz
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="left-data">
+                       <p class="gr hid-rank"> 
+                            +1.41%
+                        </p>
+                        <p>
+                            12.4 ETH
+                        </p>
+                    </div>
+                </div>
+               </a>
+               <a href="">
+                <div class="data-content">
+                    <div class="right-data">
+                        <div class="num">
+                            <h3>
+                              8  
+                            </h3>
+                        </div>
+                        <div class="pers">
+                            <img src="/img/rank-8.png" alt="Personal photo">
+                            <h2>
+                                Desirae Lipshutz
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="left-data">
+                       <p class="gr hid-rank"> 
+                            +1.41%
+                        </p>
+                        <p>
+                            12.4 ETH
+                        </p>
+                    </div>
+                </div>
+               </a>
+               <a href="">
+                <div class="data-content">
+                    <div class="right-data">
+                        <div class="num">
+                            <h3>
+                              9
+                            </h3>
+                        </div>
+                        <div class="pers">
+                            <img src="/img/rank-9.png" alt="Personal photo">
+                            <h2>
+                                Alena Vaccaro
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="left-data">
+                       <p class="gr hid-rank"> 
+                            +1.41%
+                        </p>
+                        <p>
+                            12.4 ETH
+                        </p>
+                    </div>
+                </div>
+               </a>
+              <a href="">
+                <div class="data-content">
+                    <div class="right-data">
+                        <div class="num">
+                            <h3>
+                              10 
+                            </h3>
+                        </div>
+                        <div class="pers">
+                            <img src="/img/rank-10.png" alt="Personal photo">
+                            <h2>
+                                Randy Carder
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="left-data">
+                       <p class="gr hid-rank"> 
+                            +1.41%
+                        </p>
+                        <p>
+                            12.4 ETH
+                        </p>
+                    </div>
+                </div>
+              </a>
+            <a href="">
+                <div class="data-content">
+                    <div class="right-data">
+                        <div class="num">
+                            <h3>
+                              11  
+                            </h3>
+                        </div>
+                        <div class="pers">
+                            <img src="/img/rank-11.png" alt="Personal photo">
+                            <h2>
+                                Hanna Culhane
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="left-data">
+                       <p class="gr hid-rank"> 
+                            +1.41%
+                        </p>
+                        <p>
+                            12.4 ETH
+                        </p>
+                    </div>
+                </div>
+            </a>
+               <a href="">
+                <div class="data-content">
+                    <div class="right-data">
+                        <div class="num">
+                            <h3>
+                              12
+                            </h3>
+                        </div>
+                        <div class="pers">
+                            <img src="/img/rank-12.png" alt="Personal photo">
+                            <h2>
+                                Jocelyn Workman
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="left-data">
+                       <p class="gr hid-rank"> 
+                            +1.41%
+                        </p>
+                        <p>
+                            12.4 ETH
+                        </p>
+                    </div>
+                </div>
+               </a>
+                  <a href="">
+                    <div class="data-content">
+                        <div class="right-data">
+                            <div class="num">
+                                <h3>
+                                  13  
+                                </h3>
+                            </div>
+                            <div class="pers">
+                                <img src="/img/rank-13.png" alt="Personal photo">
+                                <h2>
+                                    Desirae Septimus
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="left-data">
+                           <p class="gr hid-rank"> 
+                                +1.41%
+                            </p>
+                            <p>
+                                12.4 ETH
+                            </p>
+                        </div>
+                    </div>
+                  </a>
+              <a href="">
+                <div class="data-content">
+                    <div class="right-data">
+                        <div class="num">
+                            <h3>
+                              14  
+                            </h3>
+                        </div>
+                        <div class="pers">
+                            <img src="/img/rank-14.png" alt="Personal photo">
+                            <h2>
+                                Ahmad Franci
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="left-data">
+                       <p class="gr hid-rank"> 
+                            +1.41%
+                        </p>
+                        <p>
+                            12.4 ETH
+                        </p>
+                    </div>
+                </div>
+              </a>
+               <a href="">
+                <div class="data-content">
+                    <div class="right-data">
+                        <div class="num">
+                            <h3>
+                              15  
+                            </h3>
+                        </div>
+                        <div class="pers">
+                            <img src="/img/rank-15.png" alt="Personal photo">
+                            <h2>
+                                Maria Bergson
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="left-data">
+                       <p class="gr hid-rank"> 
+                            +1.41%
+                        </p>
+                        <p>
+                            12.4 ETH
+                        </p>
+                    </div>
+                </div>
+               </a>
+               <a href="">
+                <div class="data-content">
+                    <div class="right-data">
+                        <div class="num">
+                            <h3>
+                              16  
+                            </h3>
+                        </div>
+                        <div class="pers">
+                            <img src="/img/rank-16.png" alt="Personal photo">
+                            <h2>
+                                Ahmad Geidt
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="left-data">
+                       <p class="gr hid-rank"> 
+                            +1.41%
+                        </p>
+                        <p>
+                            12.4 ETH
+                        </p>
+                    </div>
+                </div>
+               </a>
+               <a href="">
+                <div class="data-content">
+                    <div class="right-data">
+                        <div class="num">
+                            <h3>
+                              17  
+                            </h3>
+                        </div>
+                        <div class="pers">
+                            <img src="/img/rank-17.png" alt="Personal photo">
+                            <h2>
+                                Skylar Mango
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="left-data">
+                       <p class="gr hid-rank"> 
+                            +1.41%
+                        </p>
+                        <p>
+                            12.4 ETH
+                        </p>
+                    </div>
+                </div>
+               </a>
+              <a href="">
+                <div class="data-content">
+                    <div class="right-data">
+                        <div class="num">
+                            <h3>
+                              18  
+                            </h3>
+                        </div>
+                        <div class="pers">
+                            <img src="/img/rank-18.png" alt="Personal photo">
+                            <h2>
+                                Rayna Geidt
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="left-data">
+                       <p class="gr hid-rank"> 
+                            +1.41%
+                        </p>
+                        <p>
+                            12.4 ETH
+                        </p>
+                    </div>
+                </div>
+              </a>
+                <a href="">
+                    <div class="data-content">
+                        <div class="right-data">
+                            <div class="num">
+                                <h3>
+                                  19  
+                                </h3>
+                            </div>
+                            <div class="pers">
+                                <img src="/img/rank-19.png" alt="Personal photo">
+                                <h2>
+                                    Marley Rosser
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="left-data">
+                           <p class="gr hid-rank"> 
+                                +1.41%
+                            </p>
+                            <p>
+                                12.4 ETH
+                            </p>
+                        </div>
+                    </div>
+                </a>
+          <a href="">
+            <div class="data-content">
+                <div class="right-data ">
+                    <div class="num">
+                        <h3>
+                          20 
+                        </h3>
+                    </div>
+                    <div class="pers">
+                        <img src="/img/rank-20.png" alt="Personal photo">
+                        <h2>
+                            Marcus Saris
+                        </h2>
+                    </div>
+                </div>
+                <div class="left-data ">
+                   <p class="gr hid-rank"> 
+                        +1.41%
+                    </p>
+                    <p>
+                        12.4 ETH
+                    </p>
+                </div>
+            </div>
+            
+          </a>
+            </div>
+        </div>
+       </div>
+    </section>
+   <!-- end content -->
+   <!-- start footer -->
+   <footer>
+    <div class="container">
+      <div class="content">
+        <div class="mark flex-pa">
+          <a href="#home" class="sta">
+            <i class="fa-solid fa-store logo-nav"></i>
+            <span>NFT Marketplace</span>
+          </a>
+         <p> NFT marketplace UI created with Anima for Figma.</p>
+          <p> Join our community</p>
+          <div class="icon">
+           <a href="">
+            <i class="fa-brands fa-discord fa-bounce"></i>
+           </a>
+           <a href="">
+            <i class="fa-brands fa-youtube"></i>
+           </a>
+           <a href="">
+            <i class="fa-brands fa-twitter"></i>
+           </a>
+           <a href="">
+            <i class="fa-brands fa-instagram"></i>
+           </a>
+          </div>
+        </div>
+        <div class="explore flex-pa">
+        <h2>
+          Explore
+        </h2>
+        <a href="">
+          Marketplace
+        </a>
+        <a href="rank.html">
+          Rankings
+        </a>
+        <a href="">
+          Connect a wallet
+        </a>
+        </div>
+        <div class="join flex-pa">
+          <h2>
+            Join our weekly digest
+          </h2>
+          <p>Get exclusive promotions & updates straight to your inbox.</p>
+          <form action="#" class="email-box">
+            <input type="email" name="email" placeholder="Enter your email here" required>
+            <button type="submit">Subscribe</button>
+          </form>
+          <form action="#" class="email-mobile">
+            <input type="email" name="email" placeholder="Enter Your Email Address" required>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>  
+      </div>
+      <div class="end">
+        <p>Ⓒ NFT Market. Use this template freely.</p>
+      </div>
+    </div>
+  </footer>
+ <!-- end footer -->
+   <!-- Script -->
+   <script>
+    // sidbae
+    function showSidebar() {
+      const sidebar = document.querySelector('.sidebar');
+      const menuBtn = document.getElementById('menuBtn');
+      const closeBtn = document.getElementById('closeBtn');
+
+      sidebar.style.display = 'flex';
+      menuBtn.style.display = 'none';
+      closeBtn.style.display = 'block';
+    }
+
+    function hideSidebar() {
+      const sidebar = document.querySelector('.sidebar');
+      const menuBtn = document.getElementById('menuBtn');
+      const closeBtn = document.getElementById('closeBtn');
+
+      sidebar.style.display = 'none';
+      menuBtn.style.display = 'block';
+      closeBtn.style.display = 'none';
+    }
+  </script>
+</body>
+</html>
