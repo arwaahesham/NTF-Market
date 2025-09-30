@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NFT Page</title>
+
+  <!-- Normalize -->
+  <link rel="stylesheet" href="css/normalize.css" />
+
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="css/nft-styles.css" />
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&family=Space+Mono&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <!-- Start Nav -->
+  <nav>
+    <div class="container">
+      <div class="con-logo">
+        <a href="index.html">
+          <i class="fa-solid fa-store logo-nav"></i>
+          <span>NFT Marketplace</span>
+        </a>
+      </div>
+      <div class="nav-right">
+        <div class="links">
+          <!-- Sidebar -->
+          <ul class="sidebar">
+            <li class="close-button" onclick="hideSidebar()" id="closeBtn">
+              <a href="#" class="no-effect">
+                <i class="fas fa-xmark icon-close"></i>
+              </a>
+            </li>
+            <li><a href="" class="line">Marketplace</a></li>
+            <li><a href="rank.html" class="line">Rankings</a></li>
+            <li><a href="" class="line">Connect a wallet</a></li>
+            <li><a href="" class="line">Sign Up</a></li>
+          </ul>
+
+          <!-- Desktop Links -->
+          <ul>
+            <li class="hideOnMobile"><a href="">Marketplace</a></li>
+            <li class="hideOnMobile"><a href="">Rankings</a></li>
+            <li class="hideOnMobile"><a href="">Connect a wallet</a></li>
+            <li class="menu-button" onclick="showSidebar()" id="menuBtn">
+              <a href="#" class="no-effect">
+                <i class="fa-solid fa-bars-staggered icon-menu"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Signup Button -->
+        <div class="btn hideOnMobile">
+          <button class="btn-signup">
+            <i class="fa-regular fa-user"></i>
+            <span>Sign Up</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End Nav -->
+
+  <!-- Start Header -->
+  <header></header>
+  <!-- End Header -->
+
+  <!-- Start Artist Info -->
+  <section class="artist-info">
+    <div class="container">
+      
+     
+      <div class="inf-block">
+        <div class="sta">
+          <h1>The Orbitians</h1>
+        <h4>Minted on Sep 30, 2022</h4>
+        </div>
+        <div class="card-mobile">
+          <p>Auction ends in:</p>
+          <div class="timer" id="countdown">
+            <div>
+              <span id="hours">23</span>
+              <div class="label">Hours</div>
+            </div>
+            :
+            <div>
+              <span id="minutes">59</span>
+              <div class="label">Minutes</div>
+            </div>
+            :
+            <div>
+              <span id="seconds">59</span>
+              <div class="label">Seconds</div>
+            </div>
+          </div>
+          <a href="#" class="btn">Place Bid</a>
+        </div>
+        <div class="by flex-pa">
+          <h2>Created By</h2>
+          <div class="by-in">
+            <img src="/img/by-in.png" alt="Orbitian creator" />
+            <p>Orbitian</p>
+          </div>
+        </div>
+
+        <div class="de flex-pa">
+          <h2>Description</h2>
+          <p>The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain.</p>
+          <p>
+            There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians.
+          </p>
+          <p>
+            They live in metal space machines, high up in the sky and only have one foot on Earth. These Orbitians are a peaceful race,
+            but they have been at war with a group of invaders for many generations.
+          </p>
+          <p>
+            The invaders are called Upside-Downs, because of their inverted bodies that live on the ground. Upside-Downs believe that
+            they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human
+            beings their target.
+          </p>
+        </div>
+
+        <div class="details flex-pa">
+          <h2>Details</h2>
+          <div class="one flex">
+            <i class="fa-solid fa-globe icon-detail"></i>
+            <p>View on Etherscan</p>
+          </div>
+          <div class="two flex">
+            <i class="fa-solid fa-globe icon-detail"></i>
+            <p>View Original</p>
+          </div>
+        </div>
+
+        <div class="tags flex-pa">
+          <h2>Tags</h2>
+          <div class="btns">
+            <button>Animation</button>
+            <button>Illustration</button>
+            <button>Moon</button>
+            <button>Space</button>
+          </div>
+        </div>
+
+       
+      </div>
+      <div class="card">
+        <p>Auction ends in:</p>
+        <div class="timer" id="countdown">
+          <div>
+            <span id="hours">23</span>
+            <div class="label">Hours</div>
+          </div>
+          :
+          <div>
+            <span id="minutes">59</span>
+            <div class="label">Minutes</div>
+          </div>
+          :
+          <div>
+            <span id="seconds">59</span>
+            <div class="label">Seconds</div>
+          </div>
+        </div>
+        <a href="#" class="btn">Place Bid</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Artist Info -->
+<!-- start Nfts -->
+ <section class="nfts">
+    <div class="container">
+      <div class="hed">
+        <h2>More from this artist</h2>
+       <a href="">
+        <button>
+          <i class="fa-solid fa-arrow-right" ></i>
+         Go To Artist Page
+       </button>
+       </a>
+      </div>
+      <div class="nft-card grid">
+        <div class="card">
+          <img src="/img/card-on.png" alt="nft">
+          <div class="card-content">
+            <h3>Foxy Life</h3>
+            <div class="p-img">
+              <img src="/img/by-in.png" alt="nft">
+              <p>Orbitian</p>
+            </div>
+            <div class="sal">
+              <div class="sal-on">
+                <h4>Price</h4>
+                <p>1.63 ETH</p>
+              </div>
+              <div class="sal-to">
+                <h4>Highest Bid</h4>
+                <p>0.33 wETH</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/card-to.png" alt="nft">
+          <div class="card-content">
+            <h3>Cat from future</h3>
+            <div class="p-img">
+              <img src="/img/by-in.png" alt="nft">
+              <p>Orbitian</p>
+            </div>
+            <div class="sal">
+              <div class="sal-on">
+                <h4>Price</h4>
+                <p>1.63 ETH</p>
+              </div>
+              <div class="sal-to">
+                <h4>Highest Bid</h4>
+                <p>0.33 wETH</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/card-3.png" alt="nft">
+          <div class="card-content">
+            <h3>Psycho Dog</h3>
+            <div class="p-img">
+              <img src="/img/by-in.png" alt="nft">
+              <p>Orbitian</p>
+            </div>
+            <div class="sal">
+              <div class="sal-on">
+                <h4>Price</h4>
+                <p>1.63 ETH</p>
+              </div>
+              <div class="sal-to">
+                <h4>Highest Bid</h4>
+                <p>0.33 wETH</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/card-4.png" alt="nft">
+          <div class="card-content">
+            <h3>Designer Bear</h3>
+            <div class="p-img">
+              <img src="/img/by-in.png" alt="nft">
+              <p>Orbitian</p>
+            </div>
+            <div class="sal">
+              <div class="sal-on">
+                <h4>Price</h4>
+                <p>1.63 ETH</p>
+              </div>
+              <div class="sal-to">
+                <h4>Highest Bid</h4>
+                <p>0.33 wETH</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/card-5.png" alt="nft">
+          <div class="card-content">
+            <h3>Dancing Robot 0375</h3>
+            <div class="p-img">
+              <img src="/img/by-in.png" alt="nft">
+              <p>Orbitian</p>
+            </div>
+            <div class="sal">
+              <div class="sal-on">
+                <h4>Price</h4>
+                <p>1.63 ETH</p>
+              </div>
+              <div class="sal-to">
+                <h4>Highest Bid</h4>
+                <p>0.33 wETH</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/card-6.png" alt="nft">
+          <div class="card-content">
+            <h3>Dancing Robot 0356</h3>
+            <div class="p-img">
+              <img src="/img/by-in.png" alt="nft">
+              <p>Orbitian</p>
+            </div>
+            <div class="sal">
+              <div class="sal-on">
+                <h4>Price</h4>
+                <p>1.63 ETH</p>
+              </div>
+              <div class="sal-to">
+                <h4>Highest Bid</h4>
+                <p>0.33 wETH</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/card-7.png" alt="nft">
+          <div class="card-content">
+            <h3>Dancing Robot 0321</h3>
+            <div class="p-img">
+              <img src="/img/by-in.png" alt="nft">
+              <p>Orbitian</p>
+            </div>
+            <div class="sal">
+              <div class="sal-on">
+                <h4>Price</h4>
+                <p>1.63 ETH</p>
+              </div>
+              <div class="sal-to">
+                <h4>Highest Bid</h4>
+                <p>0.33 wETH</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/card-8.png" alt="nft">
+          <div class="card-content">
+            <h3>Dancing Robot 0512</h3>
+            <div class="p-img">
+              <img src="/img/by-in.png" alt="nft">
+              <p>Orbitian</p>
+            </div>
+            <div class="sal">
+              <div class="sal-on">
+                <h4>Price</h4>
+                <p>1.63 ETH</p>
+              </div>
+              <div class="sal-to">
+                <h4>Highest Bid</h4>
+                <p>0.33 wETH</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/card-9.png" alt="nft">
+          <div class="card-content">
+            <h3>Dancing Robot 0024</h3>
+            <div class="p-img">
+              <img src="/img/by-in.png" alt="nft">
+              <p>Orbitian</p>
+            </div>
+            <div class="sal">
+              <div class="sal-on">
+                <h4>Price</h4>
+                <p>1.63 ETH</p>
+              </div>
+              <div class="sal-to">
+                <h4>Highest Bid</h4>
+                <p>0.33 wETH</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="">
+          <button class="btn-mobile">
+            <i class="fa-solid fa-arrow-right" ></i>
+           Go To Artist Page
+         </button>
+        </a>
+      </div>
+    </div>
+ </section>
+<!-- end Nfts -->
+ <!-- start footer -->
+  <footer>
+    <div class="container">
+      <div class="content">
+        <div class="mark flex-pa">
+          <a href="#home" class="sta">
+            <i class="fa-solid fa-store logo-nav"></i>
+            <span>NFT Marketplace</span>
+          </a>
+         <p> NFT marketplace UI created with Anima for Figma.</p>
+          <p> Join our community</p>
+          <div class="icon">
+           <a href="">
+            <i class="fa-brands fa-discord fa-bounce"></i>
+           </a>
+           <a href="">
+            <i class="fa-brands fa-youtube"></i>
+           </a>
+           <a href="">
+            <i class="fa-brands fa-twitter"></i>
+           </a>
+           <a href="">
+            <i class="fa-brands fa-instagram"></i>
+           </a>
+          </div>
+        </div>
+        <div class="explore flex-pa">
+        <h2>
+          Explore
+        </h2>
+        <a href="">
+          Marketplace
+        </a>
+        <a href="rank.html">
+          Rankings
+        </a>
+        <a href="">
+          Connect a wallet
+        </a>
+        </div>
+        <div class="join flex-pa">
+          <h2>
+            Join our weekly digest
+          </h2>
+          <p>Get exclusive promotions & updates straight to your inbox.</p>
+          <form action="#" class="email-box">
+            <input type="email" name="email" placeholder="Enter your email here" required>
+            <button type="submit">Subscribe</button>
+          </form>
+          <form action="#" class="email-mobile">
+            <input type="email" name="email" placeholder="Enter Your Email Address" required>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>  
+      </div>
+      <div class="end">
+        <p>Ⓒ NFT Market. Use this template freely.</p>
+      </div>
+    </div>
+  </footer>
+ <!-- end footer -->
+  <!-- Script -->
+  <script>
+    // sidbae
+    function showSidebar() {
+      const sidebar = document.querySelector('.sidebar');
+      const menuBtn = document.getElementById('menuBtn');
+      const closeBtn = document.getElementById('closeBtn');
+
+      sidebar.style.display = 'flex';
+      menuBtn.style.display = 'none';
+      closeBtn.style.display = 'block';
+    }
+
+    function hideSidebar() {
+      const sidebar = document.querySelector('.sidebar');
+      const menuBtn = document.getElementById('menuBtn');
+      const closeBtn = document.getElementById('closeBtn');
+
+      sidebar.style.display = 'none';
+      menuBtn.style.display = 'block';
+      closeBtn.style.display = 'none';
+    }
+    // timer
+    let endTime = new Date().getTime() + (24 * 60 * 60 * 1000);
+
+    let countdown = setInterval(function () {
+      let now = new Date().getTime();
+      let distance = endTime - now;
+
+      let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("hours").innerText = hours.toString().padStart(2, '0');
+      document.getElementById("minutes").innerText = minutes.toString().padStart(2, '0');
+      document.getElementById("seconds").innerText = seconds.toString().padStart(2, '0');
+
+      if (distance < 0) {
+        clearInterval(countdown);
+        document.getElementById("countdown").innerHTML = "Auction Ended";
+      }
+    }, 1000);
+  </script>
+</body>
+</html>
