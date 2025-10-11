@@ -442,7 +442,7 @@ main{
     position: relative;
     width: 100%;
     height: 500px;
-    background: url("./img/a6f43f9350c73503d13e1fe1a0e3277804ef1192.png") no-repeat center/cover;
+    background: url("./img/primary-photo-placeholder@2x.png") no-repeat center/cover;
     display: flex;
     align-items: flex-end;
     justify-content: space-evenly;
